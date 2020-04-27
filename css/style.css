@@ -1,0 +1,363 @@
+@charset "UTF-8";
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'arial unicode ms';
+}
+
+
+/* セクション */
+section {
+    height: 800px;
+    background-image: url(../img/スーツばなな.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    animation: fadeinSample 10s;
+    position: relative;
+}
+
+.section {
+    width: 45%;
+    height: 500px;
+    background-image: url(../img/吹き出し２.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+
+
+@keyframes fadeinSample {
+    0% {
+        opacity: 0;
+        /* top: 150px; */
+        /* left: 300px; */
+    }
+    100% {
+        opacity: 1;
+        /* top: 0; */
+        /* left: 0; */
+    }
+}
+
+.section h1 {
+    padding-bottom: 5%;
+}
+
+.section a {
+    text-decoration: none;
+    color: black;
+}
+
+.section a:hover {
+    color: teal;
+}
+
+@media screen and (max-width: 600px) {
+    .section {
+        font-size: 15px;
+        /* width: 20%; */
+    }
+}
+
+
+/* メイン */
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/地球.jpeg);
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+main h1 {
+    width: 80%;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+main ul {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main li {
+    width: 150px;
+    height: 150px;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main span {
+    width: 130px;
+    height: 130px;
+    background-color: rgb(255, 255, 255, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    
+}
+
+.no-1 {
+    background-image: url(../img/01.システムエンジニア.jpg);
+    background-size: cover;
+    transition: all 0.3s ease 0s;
+}
+
+.no-1:hover {
+    cursor: pointer;
+    transform: scale(1.4, 1.4);
+    border-radius: 50%;
+}
+
+.no-2 {
+    background-image: url(../img/02.社内システム.jpg);
+    background-size: cover;
+    transition: all 0.3s ease 0s;
+}
+
+.no-2:hover {
+    cursor: pointer;
+    transform: scale(1.4, 1.4);
+    border-radius: 50%;
+}
+
+.no-3 {
+    background-image: url(../img/03.ブリッジSE.jpg);
+    background-size: cover;
+    transition: all 0.3s ease 0s;
+}
+
+.no-3:hover {
+    cursor: pointer;
+    transform: scale(1.4, 1.4);
+    border-radius: 50%;
+}
+
+.no-4 {
+    background-image: url(../img/04.プログラマー.jpg);
+    background-size: cover;
+    transition: all 0.3s ease 0s;
+}
+
+.no-4:hover {
+    cursor: pointer;
+    transform: scale(1.4, 1.4);
+    border-radius: 50%;
+}
+
+.no-5 {
+    background-image: url(../img/05.サーバー.jpg);
+    background-size: cover;
+    transition: all 0.3s ease 0s;
+}
+
+.no-5:hover {
+    cursor: pointer;
+    transform: scale(1.4, 1.4);
+    border-radius: 50%;
+}
+
+.no-6 {
+    background-image: url(../img/06.データベース.jpg);
+    background-size: cover;
+    transition: all 0.3s ease 0s;
+}
+
+.no-6:hover {
+    cursor: pointer;
+    transform: scale(1.4, 1.4);
+    border-radius: 50%;
+}
+
+.no-7 {
+    background-image: url(../img/07.ネットワーク.jpg);
+    background-size: cover;
+    transition: all 0.3s ease 0s;
+}
+
+.no-7:hover {
+    cursor: pointer;
+    transform: scale(1.4, 1.4);
+    border-radius: 50%;
+}
+
+.no-8 {
+    background-image: url(../img/08.セキュリティ.jpg);
+    background-size: cover;
+    transition: all 0.3s ease 0s;
+}
+
+.no-8:hover {
+    cursor: pointer;
+    transform: scale(1.4, 1.4);
+    border-radius: 50%;
+}
+
+.no-9 {
+    background-image: url(../img/09.セールスエンジニア.jpg);
+    background-size: cover;
+    transition: all 0.3s ease 0s;
+}
+
+.no-9:hover {
+    cursor: pointer;
+    transform: scale(1.4, 1.4);
+    border-radius: 50%;
+}
+
+.no-10 {
+    background-image: url(../img/10.webエンジニア.jpg);
+    background-size: cover;
+    transition: all 0.3s ease 0s;
+}
+
+.no-10:hover {
+    cursor: pointer;
+    transform: scale(1.4, 1.4);
+    border-radius: 50%;
+}
+
+.no-11 {
+    background-image: url(../img/11.マークアップエンジニア.jpg);
+    background-size: cover;
+    transition: all 0.3s ease 0s;
+}
+
+.no-11:hover {
+    cursor: pointer;
+    transform: scale(1.4, 1.4);
+    border-radius: 50%;
+}
+
+.no-12 {
+    background-image: url(../img/12.エンベデッドエンジニア.jpg);
+    background-size: cover;
+    transition: all 0.3s ease 0s;
+}
+
+.no-12:hover {
+    cursor: pointer;
+    transform: scale(1.4, 1.4);
+    border-radius: 50%;
+}
+
+.no-13 {
+    background-image: url(../img/13.ITコンサルタント.jpg);
+    background-size: cover;
+    transition: all 0.3s ease 0s;
+}
+
+.no-13:hover {
+    cursor: pointer;
+    transform: scale(1.4, 1.4);
+    border-radius: 50%;
+}
+
+.no-14 {
+    background-image: url(../img/14.プロジェクトマネージャ.jpg);
+    background-size: cover;
+    transition: all 0.3s ease 0s;
+}
+
+.no-14:hover {
+    cursor: pointer;
+    transform: scale(1.4, 1.4);
+    border-radius: 50%;
+}
+
+.no-15 {
+    background-image: url(../img/15.データサイエンティスト.jpg);
+    background-size: cover;
+    transition: all 0.3s ease 0s;
+}
+
+.no-15:hover {
+    cursor: pointer;
+    transform: scale(1.4, 1.4);
+    border-radius: 50%;
+}
+
+
+/* アサイド */
+aside {
+    height: 800px;
+    background-image: url(../img/緑_背景.jpg);
+    background-size: cover;
+}
+
+.aside {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside h1 {
+    text-align: center;
+    padding: 80px;
+    font-size: 30px;
+}
+
+aside h1 .deco-2 {
+    background: linear-gradient(transparent 60%, #fcee21 0%);
+}
+
+.item {
+    width: 70%;
+    font-size: 18px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 25px;
+    background-color: rgb(255, 255, 255, .7);
+    padding: 80px 50px;
+    margin-bottom: 50px;
+}
+
+.item li {
+    transition: 0.5s;
+}
+
+.item li ul li {
+    overflow: hidden;
+    height: 0;
+}
+
+.item li:hover > ul > li {
+    overflow: visible;
+    height: 40px;
+}
+
+
+/* フッター */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
